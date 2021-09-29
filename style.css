@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+:root {
+    --primary-color:#5f4dfc;
+    --secondary-color: #083579;
+}
+
+.head {
+    margin: auto;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 80%;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+textarea{
+    margin: auto;
+    border: 1px solid var(--secondary-color);
+    margin-top: 2rem;
+    width: 50%;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+}
+
+#btn-translate{
+    margin: auto;
+    display: block;
+    height: 10vh;
+    background-color: var(--secondary-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    width: 25vh;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    font-weight: 200;
+}
+
+.here {
+    margin: auto;
+    max-width: 300px;
+}
+
+#output {
+    margin: auto;
+    border: 1px solid var(--secondary-color);
+    height: 10vh;
+    width: 50%;
+    padding: 1rem;
+}
+
+.head {
+    text-align: center;
+}
+
+footer {
+    margin: auto;
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    width: 80%;
+    text-align: center;
+  }
